@@ -1,0 +1,111 @@
+html {
+  height: 110%;
+}
+.content {
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  border: 1px solid #f7efec;
+  max-width: 850px;
+  padding: 60px 30px;
+  margin: 0, auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+  border: none;
+  float: left;
+}
+.content:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.clouds h1 {
+  font-size: 48px;
+  padding: 20%;
+}
+
+#date-today,
+#time-today {
+  font-size: 16px;
+  font-family: "Space Mono", monospace;
+}
+h1 {
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+h2,
+h3,
+h4 {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+.todays-forecast {
+  padding: 20px 20px 0px 20px;
+}
+.city-name {
+  text-transform: capitalize;
+}
+
+.weekly-forecast {
+  text-align: center;
+  max-width: 850px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  font-family: "Anonymous Pro", monospace;
+  font-size: 10px;
+}
+
+.sun {
+  color: #ffe484;
+}
+.wind {
+  color: #8f9ca8;
+}
+.precipitation {
+  color: #a4c7fd;
+}
+.weekly-forecast {
+  font-size: 12px;
+  font-family: "Poppins", sans-serif;
+}
+.day-one {
+  background-color: #ffff;
+  font-family: "Space Mono", monospace;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 2px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.2);
+}
+.weekday-name {
+  color: #000;
+  font-size: 14px;
+  margin: 5px;
+}
+.today-clouds {
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+li {
+  color: #000;
+  font-size: 18px;
+  height: 30px;
+  list-style: none;
+  text-align: center;
+}
+ul {
+  padding: 10px;
+}
+.weather-today {
+  font-family: "Poppins", sans-serif;
+}
