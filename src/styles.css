@@ -109,3 +109,10 @@ ul {
 .weather-today {
   font-family: "Poppins", sans-serif;
 }
+small {
+  font-family: "Space Mono", monospace;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding-right: 15px;
+}
